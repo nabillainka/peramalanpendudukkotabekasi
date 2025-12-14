@@ -1,7 +1,7 @@
 # Peramalan Jumlah Penduduk Kota Bekasi
-![Project Header](https://github.com/nabillainka/peramalanpendudukkotabekasi/blob/main/foto/image%20(2).png)
+![Project Header](https://github.com/nabillainka/peramalanpendudukkotabekasi/blob/main/foto/image%20(3).png)
 
-*Sumber: [Kimia Farma - Etikal](https://www.kimiafarma.co.id/id/etikal)*
+*Sumber: [Kompas - Hari bebas kendaraan bermotor hbkb](https://www.kompas.com/tag/hari-bebas-kendaraan-bermotor-hbkb)*
 
 ## 🔍 **Pendahuluan**
 Di antara banyak cerita selama masa kuliah, pengalaman PKL selalu menjadi yang paling membekas, mulai dari tantangannya, orang-orang yang ditemui, hingga pelajaran yang muncul tanpa diduga. Dari hari-hari penuh catatan lapangan dan kejar-kejaran dengan deadline itulah draf penelitian ini lahir. Setelah lama tersimpan rapi di folder laptop, kini saya membawanya kembali ke permukaan. Rasanya sayang jika pengalaman dan hasil belajarnya tidak ikut dibagikan. Jika ada bagian yang kurang tepat atau perlu diperbaiki, jangan ragu untuk memberi tahu saya supaya bisa menjadi pembelajaran bagi kita semua.
@@ -33,3 +33,13 @@ Oleh karena itu, diperlukan analisis dan peramalan jumlah penduduk Kota Bekasi u
 - Variabel yang dianalisis hanya jumlah penduduk, tidak mencakup faktor sosial-ekonomi seperti migrasi, angka kelahiran, kematian, pendidikan, atau infrastruktur.
 - Metode peramalan yang digunakan adalah Double Exponential Smoothing Brown, tanpa membandingkan dengan metode lain seperti ARIMA, Moving Average, atau Trend Linier.
 - Pengolahan data dan perhitungan dilakukan menggunakan software Microsoft Excel.
+
+## 🔍 **Kesimpulan dan Saran**
+### Kesimpulan
+Berdasarkan hasil analisis, jumlah penduduk Kota Bekasi terus mengalami peningkatan hingga tahun 2023 dan memiliki pola tren naik. Hasil peramalan dengan metode Double Exponential Smoothing (DES) Brown menunjukkan bahwa pertumbuhan penduduk akan tetap meningkat, meskipun laju kenaikannya mulai melambat. Nilai kesalahan peramalan yang diperoleh sangat kecil, dengan nilai MAPE sebesar 2,53%, sehingga metode ini dapat dianggap akurat dan layak digunakan.
+
+### Saran
+Pemerintah Kota Bekasi disarankan untuk:
+- Menyediakan solusi perumahan, terutama melalui pembangunan perumahan vertikal.
+- Meningkatkan kualitas dan kapasitas layanan transportasi serta kesehatan masyarakat.
+- Memperbarui dan memantau data kependudukan secara berkala untuk mendukung kebijakan yang tepat.
