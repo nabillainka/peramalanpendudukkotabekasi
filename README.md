@@ -1,45 +1,45 @@
-# Peramalan Jumlah Penduduk Kota Bekasi
+# Forecasting the Population of Bekasi City
 ![Project Header](https://github.com/nabillainka/peramalanpendudukkotabekasi/blob/main/foto/image%20(3).png)
 
-*Sumber: [Kompas - Hari bebas kendaraan bermotor hbkb](https://www.kompas.com/tag/hari-bebas-kendaraan-bermotor-hbkb)*
+*Source: [Kompas - Car-Free Day hbkb](https://www.kompas.com/tag/hari-bebas-kendaraan-bermotor-hbkb)*
 
-## 🔍 **Pendahuluan**
-Di antara banyak cerita selama masa kuliah, pengalaman PKL selalu menjadi yang paling membekas, mulai dari tantangannya, orang-orang yang ditemui, hingga pelajaran yang muncul tanpa diduga. Dari hari-hari penuh catatan lapangan dan kejar-kejaran dengan deadline itulah draf penelitian ini lahir. Setelah lama tersimpan rapi di folder laptop, kini saya membawanya kembali ke permukaan. Rasanya sayang jika pengalaman dan hasil belajarnya tidak ikut dibagikan. Jika ada bagian yang kurang tepat atau perlu diperbaiki, jangan ragu untuk memberi tahu saya supaya bisa menjadi pembelajaran bagi kita semua.
+## 🔍 **Introduction**
+Among the many stories from my college days, my internship experience always stands out as the most memorable, from the challenges I faced, the people I met, to the unexpected lessons I learned. It was during those days filled with field notes and chasing deadlines that this research draft was born. After being neatly stored in my laptop folder for a long time, I am now bringing it back to the surface. It would be a shame if the experience and lessons learned were not shared. If there are parts that are inaccurate or need improvement, please do not hesitate to let me know so that we can all learn from it.
 
-## 🔍 **Latar Belakang**
-Penduduk Kota Bekasi dari tahun ke tahun mengalami peningkatan yang cukup signifikan. Pada tahun 2022, jumlah penduduk Kota Bekasi mencapai 2.590.257 jiwa, meningkat sebanyak 25.316 jiwa dibandingkan tahun sebelumnya. Kota Bekasi memiliki luas wilayah sekitar 210,5 km² yang terbagi ke dalam 12 kecamatan, sehingga pertambahan jumlah penduduk berdampak langsung pada kepadatan penduduk dan kebutuhan fasilitas publik.
+## 🔍 **Background**
+The population of Bekasi City has increased significantly over the years. In 2022, the population of Bekasi City reached 2,590,257, an increase of 25,316 compared to the previous year. Bekasi City has an area of approximately 210.5 km², which is divided into 12 sub-districts, so that the increase in population has a direct impact on population density and the need for public facilities.
 
-Peramalan jumlah penduduk menjadi hal yang sangat penting untuk dilakukan agar pemerintah dapat mengambil kebijakan yang tepat. Dengan adanya prediksi jumlah penduduk di masa mendatang, pemerintah dapat:
-- Mengidentifikasi potensi permasalahan seperti kemacetan, pemukiman padat, kebutuhan air bersih, kesehatan, pendidikan, dan infrastruktur.
-- Menentukan strategi pembangunan dan pelayanan publik yang lebih optimal.
-- Memanfaatkan peluang dalam bidang ekonomi, investasi, dan tata ruang.
+Forecasting the population is very important so that the government can make the right policies. With predictions of the future population, the government can:
+- Identify potential problems such as traffic congestion, overcrowded settlements, clean water needs, health, education, and infrastructure.
+- Determine more optimal development and public service strategies.
+- Take advantage of opportunities in the fields of economy, investment, and spatial planning.
 
-Oleh karena itu, diperlukan analisis dan peramalan jumlah penduduk Kota Bekasi untuk tahun-tahun selanjutnya agar perencanaan pembangunan dapat dilakukan secara efektif dan tepat sasaran.
+Therefore, it is necessary to analyze and forecast the population of Bekasi City for the coming years so that development planning can be carried out effectively and on target.
 
-## 🔍 **Rumusan dan Tujuan Penelitian**
-### Rumusan Masalah
-- Bagaimana tren jumlah penduduk Kota Bekasi dari tahun 2008–2023?
-- Bagaimana hasil peramalan penduduk untuk tahun 2024–2026 menggunakan metode Brown?
-- Seberapa akurat hasil peramalan tersebut?
+## 🔍 **Research Questions and Objectives**
+### Research Questions
+- What are the trends in the population of Bekasi City from 2008 to 2023?
+- What are the results of population forecasting for 2024–2026 using the Brown method?
+- How accurate are these forecasts?
 
-### Tujuan Penelitian
-- Mengetahui tren perubahan jumlah penduduk Kota Bekasi dari tahun 2008–2023.
-- Meramalkan jumlah penduduk untuk tahun-tahun berikutnya menggunakan metode DES.
-- Menganalisis akurasi peramalan menggunakan MAPE.
+### Research Objectives
+- To determine the trend in population change in Bekasi City from 2008 to 2023.
+- To forecast the population for the following years using the DES method.
+- To analyze the accuracy of the forecast using MAPE.
 
-### Batasan Masalah
-- Data yang digunakan hanya berasal dari BPS Kota Bekasi dalam publikasi “Kota Bekasi dalam Angka”.
-- Periode data yang digunakan adalah tahun 2008–2023.
-- Variabel yang dianalisis hanya jumlah penduduk, tidak mencakup faktor sosial-ekonomi seperti migrasi, angka kelahiran, kematian, pendidikan, atau infrastruktur.
-- Metode peramalan yang digunakan adalah Double Exponential Smoothing Brown, tanpa membandingkan dengan metode lain seperti ARIMA, Moving Average, atau Trend Linier.
-- Pengolahan data dan perhitungan dilakukan menggunakan software Microsoft Excel.
+### Scope of the Problem
+- The data used only comes from the Bekasi City Statistics Agency in the publication “Kota Bekasi dalam Angka” (Bekasi City in Figures).
+- The data period used is 2008–2023.
+- The variable analyzed is only the population, not including socio-economic factors such as migration, birth rates, mortality rates, education, or infrastructure.
+- The forecasting method used is Brown's Double Exponential Smoothing, without comparing it to other methods such as ARIMA, Moving Average, or Linear Trend.
+- Data processing and calculations were performed using Microsoft Excel software.
 
-## 🔍 **Kesimpulan dan Saran**
-### Kesimpulan
-Berdasarkan hasil analisis, jumlah penduduk Kota Bekasi terus mengalami peningkatan hingga tahun 2023 dan memiliki pola tren naik. Hasil peramalan dengan metode Double Exponential Smoothing (DES) Brown menunjukkan bahwa pertumbuhan penduduk akan tetap meningkat, meskipun laju kenaikannya mulai melambat. Nilai kesalahan peramalan yang diperoleh sangat kecil, dengan nilai MAPE sebesar 2,53%, sehingga metode ini dapat dianggap akurat dan layak digunakan.
+## 🔍 **Conclusion and Recommendations**
+### Conclusion
+Based on the analysis results, the population of Bekasi City continues to increase until 2023 and shows an upward trend. The forecast results using Brown's Double Exponential Smoothing (DES) method indicate that population growth will continue to increase, although the rate of increase will begin to slow down. The forecast error value obtained is very small, with a MAPE value of 2.53%, so this method can be considered accurate and feasible to use.
 
-### Saran
-Pemerintah Kota Bekasi disarankan untuk:
-- Menyediakan solusi perumahan, terutama melalui pembangunan perumahan vertikal.
-- Meningkatkan kualitas dan kapasitas layanan transportasi serta kesehatan masyarakat.
-- Memperbarui dan memantau data kependudukan secara berkala untuk mendukung kebijakan yang tepat.
+### Recommendations
+The Bekasi City Government is advised to:
+- Provide housing solutions, particularly through the development of vertical housing.
+- Improve the quality and capacity of transportation and public health services.
+- Update and monitor population data regularly to support appropriate policies.
