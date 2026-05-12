@@ -43,3 +43,5 @@ The Bekasi City Government is advised to:
 - Provide housing solutions, particularly through the development of vertical housing.
 - Improve the quality and capacity of transportation and public health services.
 - Update and monitor population data regularly to support appropriate policies.
+
+by Nabilla Inka
